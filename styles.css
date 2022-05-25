@@ -1,0 +1,29 @@
+body{
+    text-align:center;
+    color:white;
+}
+
+h1{
+    font-size: 125px;
+    margin: 10% 0 6% 0;
+    font-family: 'Atma';
+}
+
+h3{
+    font-size: 48px;
+    font-family: 'Atma';
+    margin-bottom: 1%;
+}
+
+h4{
+    font-family: 'Atma';
+}
+
+.btn{
+    background-color: #B8A7FF;
+    border: 1px solid black;
+}
+
+.btn1{
+    border: 1px solid black;
+}

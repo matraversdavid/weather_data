@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atma&family=Roboto&display=swap" rel="stylesheet">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!--My CSS-->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="background.css">
+
+    <title>Weather Webpage</title>
+</head>
+<body>
+    <h1>Weather Data</h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3>Taunton Weather</h3>
+            </div>
+            <div class="col">
+                <h3>Search for Weather</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p id="loader"></p>
+                <p id="loader2"></p>
+                <form>
+                    <input class="btn" type="button" id="searchTaunton" value="Click here for Taunton Weather">
+                </form>
+            </div>
+            <div class="col">
+                <p id="loader3"></p>
+                <p id="loader4"></p>
+                <form>
+                    <input class="field" type="text" id="data" placeholder="e.g. London">
+                    <input class="btn1" type="button" id="search" value="Search">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+    <div class="snow"></div>
+
+    
+    
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
